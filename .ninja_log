@@ -1,0 +1,9 @@
+# ninja log v5
+1	456	7251448408463642	Qt_DLLmaker_autogen/timestamp	2330cccf12745d6d
+1	456	7251448408463642	Qt_DLLmaker_autogen/mocs_compilation.cpp	2330cccf12745d6d
+1	456	7251448408463642	A:/Projekt/build-Qt_DLLmaker-Desktop_Qt_6_6_1_MinGW_64_bit-Release/Qt_DLLmaker_autogen/timestamp	2330cccf12745d6d
+1	456	7251448408463642	A:/Projekt/build-Qt_DLLmaker-Desktop_Qt_6_6_1_MinGW_64_bit-Release/Qt_DLLmaker_autogen/mocs_compilation.cpp	2330cccf12745d6d
+456	1714	7251448421416553	CMakeFiles/Qt_DLLmaker.dir/Qt_DLLmaker_autogen/mocs_compilation.cpp.obj	66938b0f60266ab9
+459	1731	7251448421596593	CMakeFiles/Qt_DLLmaker.dir/main.cpp.obj	43c3c833b6dbaf6e
+461	3223	7251448436499963	CMakeFiles/Qt_DLLmaker.dir/dllmaker.cpp.obj	1946c5ba59f60f51
+3225	3350	7251448437800256	Qt_DLLmaker.exe	e7b3aba319d4c52b

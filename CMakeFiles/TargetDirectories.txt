@@ -1,0 +1,9 @@
+A:/Projekt/build-Qt_DLLmaker-Desktop_Qt_6_6_1_MinGW_64_bit-Release/CMakeFiles/Qt_DLLmaker.dir
+A:/Projekt/build-Qt_DLLmaker-Desktop_Qt_6_6_1_MinGW_64_bit-Release/CMakeFiles/edit_cache.dir
+A:/Projekt/build-Qt_DLLmaker-Desktop_Qt_6_6_1_MinGW_64_bit-Release/CMakeFiles/rebuild_cache.dir
+A:/Projekt/build-Qt_DLLmaker-Desktop_Qt_6_6_1_MinGW_64_bit-Release/CMakeFiles/list_install_components.dir
+A:/Projekt/build-Qt_DLLmaker-Desktop_Qt_6_6_1_MinGW_64_bit-Release/CMakeFiles/install.dir
+A:/Projekt/build-Qt_DLLmaker-Desktop_Qt_6_6_1_MinGW_64_bit-Release/CMakeFiles/install/local.dir
+A:/Projekt/build-Qt_DLLmaker-Desktop_Qt_6_6_1_MinGW_64_bit-Release/CMakeFiles/install/strip.dir
+A:/Projekt/build-Qt_DLLmaker-Desktop_Qt_6_6_1_MinGW_64_bit-Release/CMakeFiles/Qt_DLLmaker_autogen_timestamp_deps.dir
+A:/Projekt/build-Qt_DLLmaker-Desktop_Qt_6_6_1_MinGW_64_bit-Release/CMakeFiles/Qt_DLLmaker_autogen.dir
