@@ -23,7 +23,8 @@ Either "Drag & Drop" the DLLmaker.exe shortcut file on your Taskbar or Copy/Cut/
 2. Either choose your program's file via the Button or copy the file path into the first field
 3. Same with the second field but for the windeployqt.exe *(usually at .\Qt\#.#.#\mingw_64\bin)*
 	- *OPTIONAL:* If you want DLLmaker to simultaneously create a shortcut to your program check the box "Create Shortcut"
+  		> ***DLLmaker** only creates a shortcut file **if "Create Shortcut" is checked***
 	- *OPTIONAL:* If you want to store your entered file paths upon running check the box "Save Paths"
-		> ***DLLmaker** will only ever store and reload the most recent file paths and not overwrite them until "Save Paths" gets checked before a new run*
+		> ***DLLmaker** only stores and reloads the most recent file paths **if "Save Paths" is checked***
 4. Click the "**RUN**" button and wait a second
 5. Check if your "deploy directory" got populated
