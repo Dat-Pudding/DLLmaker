@@ -20,7 +20,7 @@ For now you have to install it manually but a setup is planned
 ## How do I use it?
 It is highly advised to put a copy of your built executable into a dedicated empty folder, it will be self-sufficient in that directory and won't clutter your project's build directory. 
 
-## Running DLLmaker:
+### Running DLLmaker:
 1. Start DLLmaker
 2. Either choose your program's file via the Button or copy the file path into the first field
 3. Same with the second field but for the windeployqt.exe *(usually at .\Qt\#.#.#\mingw_64\bin)*
