@@ -15,7 +15,7 @@ For now you have to install it manually but a setup is planned
 4. unpack the RAR archive where you want the "installation path" to be
 
 ### Then
-Either "Drag & Drop" the DLLmaker.exe shortcut file on your Taskbar/Desktop/wherever or Cut/Paste it wherever wanted
+Either "Drag & Drop" the DLLmaker.exe shortcut file on your Taskbar or Copy/Cut/Paste it whereever wanted
 
 ## How do I use it?
 > *It is highly advised to put a **copy of your project's executable into a dedicated empty folder** and **use this app on the copy**, this way it will be self-sufficient in that directory and won't clutter your project's build directory.*
