@@ -13,6 +13,7 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QGroupBox>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
@@ -34,6 +35,7 @@ public:
     QGroupBox *groupBox_3;
     QCheckBox *shortcutCheckBox;
     QCheckBox *saveCheckBox;
+    QLabel *versionLabel;
 
     void setupUi(QMainWindow *DLLmaker)
     {
@@ -46,7 +48,7 @@ public:
         centralwidget->setObjectName("centralwidget");
         groupBox_2 = new QGroupBox(centralwidget);
         groupBox_2->setObjectName("groupBox_2");
-        groupBox_2->setGeometry(QRect(10, 100, 401, 81));
+        groupBox_2->setGeometry(QRect(10, 90, 401, 81));
         runButton = new QPushButton(groupBox_2);
         runButton->setObjectName("runButton");
         runButton->setGeometry(QRect(290, 50, 101, 24));
@@ -79,6 +81,10 @@ public:
         saveCheckBox = new QCheckBox(groupBox_3);
         saveCheckBox->setObjectName("saveCheckBox");
         saveCheckBox->setGeometry(QRect(10, 50, 101, 22));
+        versionLabel = new QLabel(centralwidget);
+        versionLabel->setObjectName("versionLabel");
+        versionLabel->setGeometry(QRect(360, 170, 49, 16));
+        versionLabel->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         DLLmaker->setCentralWidget(centralwidget);
 
         retranslateUi(DLLmaker);
@@ -91,12 +97,15 @@ public:
         DLLmaker->setWindowTitle(QCoreApplication::translate("DLLmaker", "DLLmaker", nullptr));
         groupBox_2->setTitle(QCoreApplication::translate("DLLmaker", "Choose and run desired windeployqt.exe", nullptr));
         runButton->setText(QCoreApplication::translate("DLLmaker", "RUN", nullptr));
+        generatorInput->setPlaceholderText(QCoreApplication::translate("DLLmaker", "C:/Qt/6.6.1/mingw_64/bin/windeployqt6.exe", nullptr));
         generatorExeSelectButton->setText(QCoreApplication::translate("DLLmaker", "Choose WinDeployQt...", nullptr));
         groupBox->setTitle(QCoreApplication::translate("DLLmaker", "Choose location of your project's executable", nullptr));
         exeSelectButton->setText(QCoreApplication::translate("DLLmaker", "Choose executable...", nullptr));
+        exeFilePathInput->setPlaceholderText(QCoreApplication::translate("DLLmaker", "C:/myProjectStandalone/myProject.exe", nullptr));
         groupBox_3->setTitle(QCoreApplication::translate("DLLmaker", "Options", nullptr));
         shortcutCheckBox->setText(QCoreApplication::translate("DLLmaker", "Create Shortcut", nullptr));
         saveCheckBox->setText(QCoreApplication::translate("DLLmaker", "Save Paths", nullptr));
+        versionLabel->setText(QCoreApplication::translate("DLLmaker", "v0.4", nullptr));
     } // retranslateUi
 
 };
